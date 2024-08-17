@@ -1,4 +1,3 @@
-// Function to get the JWT token from localStorage or sessionStorage
 export const getToken = () => {
   return localStorage.getItem("token") || sessionStorage.getItem("token");
 };
