@@ -18,7 +18,6 @@ const ContactUsForm = () => {
   const submitContactForm = async (data) => {
     try {
       setLoading(true);
-      // const res = await axios.post("http://localhost:3001/api/contact", data);
       toast.success("Your message has been sent successfully!");
       setLoading(false);
     } catch (error) {
